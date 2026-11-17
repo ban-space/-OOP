@@ -1,7 +1,8 @@
 public class Person {
     String name;
     int age;
-    public void displayInfo(){
-        System.out.println("this is a person");
+    public static void main(String[] args){
+        Example example = new Example();
+        System.out.println(": "+Example.x);
     }
 }
